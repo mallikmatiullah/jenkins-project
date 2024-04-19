@@ -7,6 +7,7 @@ pipeline {
         stage("build docker image") {
             steps {
                     // Clone the repository
+        sh 'rm -rf jenkins-project'
         sh 'git clone https://github.com/mallikmatiullah/jenkins-project.git'
         sh 'cd jenkins-project'    
         // Change directory into the cloned repository
