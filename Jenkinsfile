@@ -25,6 +25,7 @@ pipeline {
         stage("deploy") {
             steps {
                 echo "deploying steps"
+                sh 'docker run -p 80:80 -d demo-testing:${BUILD_ID}'
             }
         }
     }
