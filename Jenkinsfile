@@ -8,6 +8,7 @@ pipeline {
             steps {
                     // Clone the repository
         sh 'git clone https://github.com/mallikmatiullah/jenkins-project.git'
+        sh 'ls'
         
         // Change directory into the cloned repository
         dir('jenkins-project') {
