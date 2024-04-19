@@ -4,9 +4,20 @@ pipeline {
 
     stages {
 
-        stage("build") {
+        stage("build docker image") {
             steps {
-                    sh 'docker ps'
+                    // Clone the repository
+        sh 'git clone https://github.com/mallikmatiullah/jenkins-project.git'
+        
+        // Change directory into the cloned repository
+        dir('jenkins-project') {
+            // Build the Docker image
+            sh 'docker build -t demo-testing:${BUILD_ID} .'
+        }
+        
+        // Optional: List Docker images after build
+        sh 'docker images | grep demo-testing'
+        echo "build successfully"
             }
         }
         stage("test") {
