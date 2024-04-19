@@ -1,0 +1,129 @@
+#reg-paper {
+  width: 500px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.img-business {
+  margin-left: 451px;
+  width: 50px;
+  opacity: 0.5;
+}
+.reg-login {
+  padding-left: 210px;
+  display: flex;
+}
+#reg-heading {
+  color: rgb(5, 60, 142);
+  padding-left: 221px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.MuiAvatar-colorDefault {
+  background-color: transparent !important;
+}
+#reg-Avatar {
+  width: 60px;
+  height: 60px;
+}
+.reg-pos {
+  padding-left: 20px;
+}
+.welcome {
+  align-items: center;
+}
+#reg-ent-business {
+  font-size: 12px;
+  color: #7a748d;
+  width: 25%;
+  background-color: #aac9f6;
+  align-items: center;
+  padding-top: 2px;
+  height: 20px;
+  border-radius: 4px;
+}
+#bz-paper {
+  width: 500px;
+  height: 560px;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  margin-left: 450px;
+  /* align-content: center; */
+  position: absolute;
+}
+#bz-paper-signup {
+  width: 500px;
+  height: 680px;
+  /* margin-top: 10px; */
+  margin-bottom: 100px;
+  margin-left: 450px;
+  /* align-content: center; */
+  position: absolute;
+}
+.behind-paper-signin {
+  background-image: url(../signin-background.png);
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  padding: 50px;
+  /* background-repeat: no-repeat; */
+}
+.behind-paper-signup {
+  background-image: url(../signup-background.png);
+  height: 120%;
+  position: absolute;
+  width: 100%;
+  padding: 50px;
+  /* background-repeat: no-repeat; */
+}
+.reg-form-business {
+  width: 70%;
+  border: 2px solid #0452c5;
+  border-radius: 4px;
+  height: 40px;
+  padding: 5px;
+  outline: none !important;
+}
+.signup-password {
+  width: 70% !important;
+  border: 2px solid #0452c5 !important;
+  border-radius: 4px;
+  height: 40px;
+  padding: 5px;
+  /* outline: none !important; */
+}
+
+.icon-button {
+  position: absolute;
+  margin-left: 310px !important;
+}
+.password-field-no-outline {
+  border: none;
+  position: absolute;
+  margin-left: 5px;
+}
+.password-field-no-outline .MuiOutlinedInput-root {
+  border: none;
+  position: absolute;
+  margin-left: 5px;
+}
+
+.password-field-no-outline .MuiOutlinedInput-notchedOutline {
+  border: none;
+}
+.footer {
+  display: flex;
+}
+#reg-button {
+  margin-top: 20px;
+  color: #fafafa;
+  font-size: "14px";
+  background-color: rgba(4, 81, 196, 1);
+}
+.business-login-password-field {
+  width: 350px;
+  margin-left: 15%;
+  border: 2px solid #0452c5;
+  height: 40px;
+  border-radius: 4px;
+  padding: 2px;
+}

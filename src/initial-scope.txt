@@ -1,0 +1,109 @@
+MVP 
+Property Listing Website that will allow interested users/visitors to browse property listings for Buy and Rental. The website will be Mobile Friendly to allows users to access website using different mobile devices.
+It is important you review each item carefully or comment for specific item separately. 
+Demo URL : https://65f1dcd598a9a10008013548--zingy-ganache-67d0aa.netlify.app/
+
+In Scope 
+Static Website to display 20 Properties in total (10 Rental + 10 Selling). Property details (images/data) will be uploaded/maintained in the background at this stage.
+1.Main Landing Page With three items on header frame (Home, Buy, Rent, Contact (no Form) )
+2.A dedicated Sell/Buy Property Details Page in a fixed template
+3.A dedicated Rent Property Details Page in a fixed template
+4.Each Product Page will have Property QR – User should be able to land on specific Property Page using the QR Code
+
+Out of Scope (Future Enhancement)
+1.Mobile App 
+2.No Property Filter or Search Facility.
+3.No Security in MVP (Login or Customer Registration)
+Information Required
+1.Arabic Text in local dialect (For all sections, headings, banners)
+2.Product Details Page (See reference 2&3 above) Template to be shared for Sign-Off
+3.Property (Display) Product Page Information Items 
+a.Sell Property Information Data Items
+b.Rent Property Information Data Items
+4.Indicative Company Name for Logo – Use existing while waiting.
+5.Confirm you are happy with the Style/Colour scheme/Fonts.
+6.Provide a WhatsApp Contact
+7.Provide an Email Contact
+8.Provide a Telephone Contact
+9.Property Data Items:
+a.Thumbnail Image (must meet Size and Resolution requirements)
+b.Property Images in agreed sizes
+c.Agree Image resolution
+d.Number of Images displayed per Property – Max 5-8
+e.Finalise a list of Property Data items (property attributes)
+	a.	Name of the property (title)
+	b.	Description of the property (1-2 short lines)
+	c.	No. of bedrooms, bathrooms, living rooms, guests' rooms (if any)Living Space
+f.Map – Google Location URL
+g.Price/Rent 
+h.Currency
+i.Last updated (Date)
+j.Property Customer Reference Number Format 
+10.Company Contact and Bank Details for Invoice
+11.How many average number of properties listed in one time
+a.Rental
+b.Selling
+
+
+Note:
+A.All Information Required above must be provide within specified timelines (to avoid delay) in agreed format on a Teams location. Please setup your account on MS Teams and share account details so we can invite you to join a collaboration space.
+B.No Information to be shared via WhatsApp or other medium. Please only follow recommended collaborations approach to facilitate delivery on time. 
+C.Scope must be agreed/signed off and all required information is provided before development commence. 
+D.Property stock will be refreshed twice a month only as long as full information for a property is provided in agreed format.
+Vialogic Actions/Responsibilities
+-Setup a Teams channel for collaboration, meeting and information exchange.
+-Initiate a Project with main developer and a PM assigned for communication and scope.
+-Provide Hosting and maintenance 
+Duration
+TBD
+
+Vialogic Action/Todo
+Aaqib
+1.Check-In Property App Code in Github Repo
+2.Create Product Details Page Wireframe for SELL Property
+3.Create Product Details Page Wireframe for RENT Property
+4.How to read Product Data and Images from FILE SYSTEM - https://youtu.be/7EFZIe_Cpv8
+5.Finalise Property File System Approach 
+a.Assets/<projectName>/<sell or Rent>/UniqueCode/images
+6.Update Prototype to read Product Data file.
+7.Review and Finalise Property Data Items List with Fahad
+8.Read Website text from the data file instead of coded in the website.
+9.Finalise Footer – What information is to be displayed. Now, I will suggest we keep it to a minimum. 
+10.Finalise Structure for JSON Data File for Properties details 
+a.Property Stock can be listed in the Structure 
+11.Discuss with Mati how image files will be uploaded for new property stock on the local Folder.
+
+References
+https://Hostname/buy/{{QRCode}}/PropertyDetailshttps://Hostname/buy/{{QRCode}}/PropertyDetails
+https://Hostname/rent/{{QRCode}}/PropertyDetailshttps://Hostname/rent/{{QRCode}}/PropertyDetails
+https://youtu.be/7EFZIe_Cpv8
+https://medium.com/@hassaanistic/best-way-to-store-image-in-any-web-application-development-best-practices-and-considerations-4fbacdf066d2
+
+Fahad
+1.Prepare a excel/word document to list Arabic text for each data item.
+2.Review Property reference Website
+3.Get Mati to deploy Prototype on ViaCyber Kubernetes Server from Github using ArgoCD and make it accessible through cloudflare
+4.Finalise a list of Product Data Items
+a.Number of Images
+b.Image resolution
+c.Data Items for Sell
+d.Data Items for Rent
+5.Investigate what is required to create a page to allow users list their website through site. At present we have to do it manually using data files.
+6.Investigate how much cost for listing a property on the website.
+7.Investigate Payment providers in KSA and Middle East for Online Payment
+
+Reference:
+https://wasalt.com/
+www.emirates.estate
+https://www.sobharealty.com/
+
+Product Roadmap
+1.Add Authorised Broker Reference 
+a.List of verified Property Brokers
+b.Broker Information Page
+2.Property Search 
+a.Rental
+b.Sell
+3.Veryfid Approved Broker
+4.Signin with Veryfid
+5.Property Listing Functionality

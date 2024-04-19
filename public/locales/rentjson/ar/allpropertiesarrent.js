@@ -1,0 +1,248 @@
+export const allpropertiesarrent = {
+
+    "type": "rent",
+    "rentpropertiesarabic": [
+        {
+            "id": 1,
+            "title": "فيلا في النخيل، شرق الرياض",
+            "location": "النخيل، شرق الرياض",
+            "status": "مؤجر",
+            "locationURL": "https://maps.app.goo.gl/1svYNLCcshoNSr9g8",
+            "qrcode": "https://dream-listing.vialogicsolutions.co.uk/rent-detail-product-page/1",
+            "price": "150 مليون ريال سعودي / سنة",
+            "bedrooms": 4,
+            "bathrooms": 3,
+            "size": "300 متر مربع",
+            "images": [
+                "image1.jpg",
+                "image2.jpg",
+                "image3.jpg",
+                "image4.jpg",
+                "image5.jpg"
+            ],
+            "featured": "مميز",
+            "propertyType": "فيلا",
+            "livingRooms": 2,
+            "builtUpArea": 300,
+            "newText": "جديد"
+        },
+        {
+            "id": 2,
+            "title": "شقة في العليا، الرياض",
+            "location": "العليا، الرياض",
+            "status": "للإيجار",
+            "locationURL": "https://maps.app.goo.gl/1svYNLCcshoNSr9g8",
+            "qrcode": "https://dream-listing.vialogicsolutions.co.uk/rent-detail-product-page/2",
+            "price": "90 مليون ريال سعودي / سنة",
+            "bedrooms": "2,5",
+            "bathrooms": 2,
+            "size": "150 متر مربع",
+            "images": [
+                "image1.jpg",
+                "image2.jpg",
+                "image3.jpg",
+                "image4.jpg",
+                "image5.jpg"
+            ],
+            "featured": "مميز بالإضافة إلى",
+            "propertyType": "شقة",
+            "livingRooms": 1,
+            "builtUpArea": 150,
+            "newText": "قديمة"
+        },
+        {
+            "id": 3,
+            "title": "فيلا في المصيف، غرب الرياض",
+            "location": "المصيف، غرب الرياض",
+            "status": "مؤجر",
+            "locationURL": "https://maps.app.goo.gl/1svYNLCcshoNSr9g8",
+            "qrcode": "https://dream-listing.vialogicsolutions.co.uk/rent-detail-product-page/3",
+            "price": "200 مليون ريال سعودي / سنة",
+            "bedrooms": "5,6",
+            "bathrooms": 4,
+            "size": "400 متر مربع",
+            "images": [
+                "image1.jpg",
+                "image2.jpg",
+                "image3.jpg",
+                "image4.jpg",
+                "image5.jpg"
+            ],
+            "featured": "مميز بالإضافة إلى",
+            "propertyType": "فيلا",
+            "livingRooms": 2,
+            "builtUpArea": 400,
+            "newText": "جديد"
+        },
+        {
+            "id": 4,
+            "title": "شقة في السليمانية، شرق الرياض",
+            "location": "السليمانية، شرق الرياض",
+            "status": "مؤجر",
+            "locationURL": "https://maps.app.goo.gl/1svYNLCcshoNSr9g8",
+            "qrcode": "https://dream-listing.vialogicsolutions.co.uk/rent-detail-product-page/4",
+            "price": "80 مليون ريال سعودي / سنة",
+            "bedrooms": 2,
+            "bathrooms": 1,
+            "size": "120 متر مربع",
+            "images": [
+                "image1.jpg",
+                "image2.jpg",
+                "image3.jpg",
+                "image4.jpg",
+                "image5.jpg"
+            ],
+            "featured": "بالإضافة إلى",
+            "propertyType": "شقة",
+            "livingRooms": 1,
+            "builtUpArea": 120,
+            "newText": "جديد"
+        },
+        {
+            "id": 5,
+            "title": "فيلا في الروضة، شمال الرياض",
+            "location": "الروضة، شمال الرياض",
+            "status": "للإيجار",
+            "locationURL": "https://maps.app.goo.gl/1svYNLCcshoNSr9g8",
+            "qrcode": "https://dream-listing.vialogicsolutions.co.uk/rent-detail-product-page/5",
+            "price": "180 مليون ريال سعودي / سنة",
+            "bedrooms": 4,
+            "bathrooms": 3,
+            "size": "250 متر مربع",
+            "images": [
+                "image1.jpg",
+                "image2.jpg",
+                "image3.jpg",
+                "image4.jpg",
+                "image5.jpg"
+            ],
+            "featured": "بالإضافة إلى",
+            "propertyType": "فيلا",
+            "livingRooms": 2,
+            "builtUpArea": 250,
+            "newText": "قديمة"
+        },
+        {
+            "id": 6,
+            "title": "شقة في الملقا، غرب الرياض",
+            "location": "الملقا، غرب الرياض",
+            "status": "للإيجار",
+            "locationURL": "https://maps.app.goo.gl/1svYNLCcshoNSr9g8",
+            "qrcode": "https://dream-listing.vialogicsolutions.co.uk/rent-detail-product-page/6",
+            "price": "70 مليون ريال سعودي / سنة",
+            "bedrooms": 1,
+            "bathrooms": 1,
+            "size": "90 متر مربع",
+            "images": [
+                "image1.jpg",
+                "image2.jpg",
+                "image3.jpg",
+                "image4.jpg",
+                "image5.jpg"
+            ],
+            "featured": "مميز",
+            "propertyType": "شقة",
+            "livingRooms": 1,
+            "builtUpArea": 90,
+            "newText": "جديد"
+        },
+        {
+            "id": 7,
+            "title": "فيلا في الودي، جنوب الرياض",
+            "location": "الودي، جنوب الرياض",
+            "status": "مؤجر",
+            "locationURL": "https://maps.app.goo.gl/1svYNLCcshoNSr9g8",
+            "qrcode": "https://dream-listing.vialogicsolutions.co.uk/rent-detail-product-page/7",
+            "price": "220 مليون ريال سعودي / سنة",
+            "bedrooms": 6,
+            "bathrooms": 4,
+            "size": "500 متر مربع",
+            "images": [
+                "image1.jpg",
+                "image2.jpg",
+                "image3.jpg",
+                "image4.jpg",
+                "image5.jpg"
+            ],
+            "featured": "مميز بالإضافة إلى",
+            "propertyType": "فيلا",
+            "livingRooms": 3,
+            "builtUpArea": 500,
+            "newText": "قديمة"
+        },
+        {
+            "id": 8,
+            "title": "شقة في العزيزية، شرق الرياض",
+            "location": "العزيزية، شرق الرياض",
+            "status": "مؤجر",
+            "locationURL": "https://maps.app.goo.gl/1svYNLCcshoNSr9g8",
+            "qrcode": "https://dream-listing.vialogicsolutions.co.uk/rent-detail-product-page/8",
+            "price": "60 مليون ريال سعودي / سنة",
+            "bedrooms": 9,
+            "bathrooms": 1,
+            "size": "80 متر مربع",
+            "images": [
+                "image1.jpg",
+                "image2.jpg",
+                "image3.jpg",
+                "image4.jpg",
+                "image5.jpg"
+            ],
+            "featured": "مميز",
+            "propertyType": "شقة",
+            "livingRooms": 1,
+            "builtUpArea": 80,
+            "newText": "جديد"
+        },
+        {
+            "id": 9,
+            "title": "فيلا في القدس، غرب الرياض",
+            "location": "القدس، غرب الرياض",
+            "status": "للإيجار",
+            "locationURL": "https://maps.app.goo.gl/1svYNLCcshoNSr9g8",
+            "qrcode": "https://dream-listing.vialogicsolutions.co.uk/rent-detail-product-page/9",
+            "price": "300 مليون ريال سعودي / سنة",
+            "bedrooms": 8,
+            "bathrooms": 5,
+            "size": "600 متر مربع",
+            "images": [
+                "image1.jpg",
+                "image2.jpg",
+                "image3.jpg",
+                "image4.jpg",
+                "image5.jpg"
+            ],
+            "featured": "بالإضافة إلى",
+            "propertyType": "فيلا",
+            "livingRooms": 3,
+            "builtUpArea": 600,
+            "newText": "قديمة"
+        },
+        {
+            "id": 10,
+            "title": "شقة في القدسية، شمال الرياض",
+            "location": "القدسية، شمال الرياض",
+            "status": "للإيجار",
+            "locationURL": "https://maps.app.goo.gl/1svYNLCcshoNSr9g8",
+            "qrcode": "https://dream-listing.vialogicsolutions.co.uk/rent-detail-product-page/10",
+            "price": "50 مليون ريال سعودي / سنة",
+            "bedrooms": 4,
+            "bathrooms": 1,
+            "size": "70 متر مربع",
+            "images": [
+                "image1.jpg",
+                "image2.jpg",
+                "image3.jpg",
+                "image4.jpg",
+                "image5.jpg"
+            ],
+            "featured": "مميز بالإضافة إلى",
+            "propertyType": "شقة",
+            "livingRooms": 1,
+            "builtUpArea": 70,
+            "newText": "جديد"
+        }
+
+    ]
+}
+
